@@ -1,15 +1,32 @@
 <html>
 <style>
-  p {width:30%;font:Courier;padding-top:2%;}
+  p {width:75%;font:Brush Script MT;padding-top:5%;}
+  body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .background-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: contrast(50%); /* Set contrast to 50% */
+            z-index: -1; /* Position it behind other content */
+        }
+    </style>
 </style>
-<img src='stars-and-nebula-in-the-universe.jpg' width='20%' alt='NASA Image of Stars and Nebula in the Universe'/>
+<img src='stars-and-nebula-in-the-universe.jpg' alt='NASA Image of Stars and Nebula in the Universe' class="background-image"/>
 <body>
 <center>
   <p>Hello! My name is Meir Schochet and welcome to my website! I am a senior undergraduate astrophysics student at the University of Florida,
     and I primarily study stars! My interests lie in the death of stars forming compact remnants and how binary systems introduce
     numerous additional uncertanties!</p>
   <p>Please feel free to explore the tabs below, or reach out to me by email [meirschochet13 {at} gmail {dot} com] </p>
-
 </center>
 </body>
 </html>
